@@ -50,7 +50,7 @@ export default function RootLayout({
 
               {/* Main content */}
               <main className="grow overflow-hidden px-6">
-                <div className="w-full h-full max-w-[1072px] mx-auto flex flex-col">
+                <div className="w-full h-full max-w-[1200px] mx-auto flex flex-col">
                   <Header />
 
                   {children}
