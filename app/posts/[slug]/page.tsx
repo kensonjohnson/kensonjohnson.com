@@ -4,7 +4,7 @@ import { allPosts } from "contentlayer/generated";
 import { notFound } from "next/navigation";
 import { Mdx } from "@/components/mdx/mdx";
 import PostDate from "@/components/post-date";
-import WidgetNewsletter from "@/components/widget-newsletter";
+// import WidgetNewsletter from "@/components/widget-newsletter";
 import WidgetSponsor from "@/components/widget-sponsor";
 import WidgetPosts from "@/components/widget-posts";
 
@@ -44,7 +44,7 @@ export default async function SinglePost({
     <div className="grow md:flex space-y-8 md:space-y-0 md:space-x-8 pt-12 md:pt-16 pb-16 md:pb-20">
       {/* Middle area */}
       <div className="grow">
-        <div className="max-w-[700px]">
+        <div className="max-w-[800px]">
           {/* Back */}
           <div className="mb-3">
             <Link
@@ -131,9 +131,7 @@ export default async function SinglePost({
       {/* Right sidebar */}
       <aside className="md:w-[240px] lg:w-[300px] shrink-0">
         <div className="space-y-6">
-          <WidgetNewsletter />
           <WidgetSponsor />
-          {/* Temporary fix - ref: https://github.com/vercel/next.js/issues/42292#issuecomment-1298459024 */}
           <WidgetPosts />
         </div>
       </aside>
