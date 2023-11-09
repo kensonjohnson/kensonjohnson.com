@@ -164,8 +164,8 @@ export default function Subscribe() {
                       </div>
                       <p className="text-sm text-slate-500 dark:text-slate-400 mb-2">
                         I was able to quickly master the skills necessary to
-                        advance my career. I'm grateful for the resources Mark
-                        provided and would recommend him to anyone.
+                        advance my career. I&apos;m grateful for the resources
+                        Mark provided and would recommend him to anyone.
                       </p>
                     </div>
                     <div className="text-xs font-aspekta font-[650] text-sky-500">
@@ -191,8 +191,8 @@ export default function Subscribe() {
                       </div>
                       <p className="text-sm text-slate-500 dark:text-slate-400 mb-2">
                         I was able to quickly master the skills necessary to
-                        advance my career. I'm grateful for the resources Mark
-                        provided and would recommend him to anyone.
+                        advance my career. I&apos;m grateful for the resources
+                        Mark provided and would recommend him to anyone.
                       </p>
                     </div>
                     <div className="text-xs font-aspekta font-[650] text-sky-500">

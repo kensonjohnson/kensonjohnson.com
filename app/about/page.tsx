@@ -18,7 +18,7 @@ export default function About() {
           <section>
             {/* Page title */}
             <h1 className="h1 font-aspekta mb-5">
-              Hi. I'm Mark{" "}
+              Hi. I&apos;m Mark{" "}
               <span className="inline-flex relative text-sky-500 before:absolute before:inset-0 before:bg-sky-200 dark:before:bg-sky-500 before:opacity-30 before:-z-10 before:-rotate-2 before:translate-y-1/4">
                 @mrk27
               </span>{" "}
@@ -38,15 +38,15 @@ export default function About() {
                   Short Bio
                 </h2>
                 <p>
-                  I'm a software engineer with more than 10 years of experience
-                  in a variety of domains. For the past few years, I've focused
-                  on highload server-side projects, distributed systems, and
-                  platform development - tinkering with infrastructure, all
-                  things containers and Cloud Native.
+                  I&apos;m a software engineer with more than 10 years of
+                  experience in a variety of domains. For the past few years,
+                  I&apos;ve focused on highload server-side projects,
+                  distributed systems, and platform development - tinkering with
+                  infrastructure, all things containers and Cloud Native.
                 </p>
                 <p>
-                  While there isn't a Wikipedia page about me (sorry folks!), a
-                  media bio is available below.
+                  While there isn&apos;t a Wikipedia page about me (sorry
+                  folks!), a media bio is available below.
                 </p>
               </div>
               <div className="space-y-4">
@@ -82,7 +82,7 @@ export default function About() {
                   <strong className="font-medium text-slate-800 dark:text-slate-100">
                     I am responsible for leading
                   </strong>{" "}
-                  the technical teamand developing the company's technology
+                  the technical teamand developing the company&apos;s technology
                   strategy. I work closely with the engineering team to ensure
                   that the products and services we provide are secure.
                 </p>
@@ -92,10 +92,10 @@ export default function About() {
 
               <div className="space-y-4">
                 <h2 className="h3 font-aspekta text-slate-800 dark:text-slate-100">
-                  Let's Connect
+                  Let&apos;s Connect
                 </h2>
                 <p>
-                  I'm excited to connect with others via{" "}
+                  I&apos;m excited to connect with others via{" "}
                   <a
                     className="font-medium text-sky-500 hover:underline"
                     href="#0"
@@ -109,10 +109,10 @@ export default function About() {
                   >
                     Twitter
                   </a>{" "}
-                  to chat about projects and ideas. Currently, I'm not taking on
-                  freelance projects, but I am open to hearing about potential
-                  opportunities, discussing them with you and then potentially
-                  collaborating if it's a good fit.
+                  to chat about projects and ideas. Currently, I&apos;m not
+                  taking on freelance projects, but I am open to hearing about
+                  potential opportunities, discussing them with you and then
+                  potentially collaborating if it&apos;s a good fit.
                 </p>
               </div>
             </div>

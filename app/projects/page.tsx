@@ -95,7 +95,9 @@ export default function Projects() {
         <div className="max-w-[800px]">
           <section>
             {/* Page title */}
-            <h1 className="h1 font-aspekta mb-12">Nice stuff I've built</h1>
+            <h1 className="h1 font-aspekta mb-12">
+              Nice stuff I&apos;ve built
+            </h1>
             {/* Page content */}
             <div className="space-y-10">
               {/* Side Hustles cards */}
