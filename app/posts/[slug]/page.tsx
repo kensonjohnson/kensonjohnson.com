@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { allPosts } from "contentlayer/generated";
 import { notFound } from "next/navigation";
-import { Mdx } from "@/components/mdx/mdx";
+import { Mdx } from "@/components/MDX/mdx";
 import PostDate from "@/components/post-date";
 // import WidgetNewsletter from "@/components/widget-newsletter";
 import WidgetSponsor from "@/components/widget-sponsor";
