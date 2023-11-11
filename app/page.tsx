@@ -1,13 +1,8 @@
 import { allPosts } from "contentlayer/generated";
 import Hero from "@/components/hero";
 import PostItem from "./post-item";
-// import Talks from "@/components/talks";
 import FeaturedProjects from "@/components/featured-projects";
-import WidgetSponsor from "@/components/widget-sponsor";
 import WidgetPosts from "@/components/widget-posts";
-// import WidgetNewsletter from "@/components/widget-newsletter";
-// import WidgetSponsor from "@/components/widget-sponsor";
-// import WidgetBook from "@/components/widget-book";
 
 export const metadata = {
   title: "Home - DevSpace",
@@ -35,7 +30,8 @@ export default async function Home() {
 
               {/* Filters */}
               <ul className="flex flex-wrap text-sm border-b border-slate-100 dark:border-slate-800">
-                <li className="px-3 -mb-px">
+                {/* TODO: Add functionality for switching based on category */}
+                {/* <li className="px-3 -mb-px">
                   <a
                     className="block py-3 font-medium text-slate-800 dark:text-slate-100 border-b-2 border-sky-500"
                     href="#0"
@@ -66,7 +62,7 @@ export default async function Home() {
                   >
                     Indie Hacking
                   </a>
-                </li>
+                </li> */}
               </ul>
 
               {/* Articles list */}
