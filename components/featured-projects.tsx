@@ -1,13 +1,15 @@
 export default function FaeturedProjects() {
   return (
     <section>
-      <h2 className="font-aspekta text-xl font-[650] mb-5">Open-Source Projects</h2>
+      <h2 className="font-aspekta text-xl font-[650] mb-5">
+        Open-Source Projects
+      </h2>
 
       {/* Cards */}
       <div className="grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-5">
         <a
-          className="rounded-lg border border-slate-200 dark:border-slate-800 dark:bg-gradient-to-t dark:from-slate-800 dark:to-slate-800/30 odd:-rotate-1 even:rotate-1 hover:rotate-0 transition-transform duration-700 hover:duration-100 ease-in-out p-5"
-          href="#0"
+          className="rounded-lg border border-slate-200 dark:border-slate-800 dark:bg-gradient-to-t dark:from-slate-800 dark:to-slate-800/30 p-5"
+          href="https://github.com/kensonjohnson/simple-typescript-template"
         >
           <div className="flex flex-col h-full">
             <div className="grow">
@@ -20,19 +22,29 @@ export default function FaeturedProjects() {
                   />
                 </svg>
               </div>
-              <div className="text-lg font-aspekta font-[650] mb-1">Awesome Container Tinkering</div>
-              <p className="text-sm text-slate-500 dark:text-slate-400 mb-2">Solutions for running containers locally and remotely.</p>
+              <div className="text-lg font-aspekta font-[650] mb-1">
+                Simple TypeScript Template
+              </div>
+              <p className="text-sm text-slate-500 dark:text-slate-400 mb-2">
+                A no bells and whistles template to setup a TypeScript project.
+                Perfect for beginners just learning TS.
+              </p>
             </div>
             <div className="text-sky-500 flex justify-end">
-              <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="14" height="12">
+              <svg
+                className="fill-current"
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="12"
+              >
                 <path d="M9.586 5 6.293 1.707 7.707.293 13.414 6l-5.707 5.707-1.414-1.414L9.586 7H0V5h9.586Z" />
               </svg>
             </div>
           </div>
         </a>
         <a
-          className="rounded-lg border border-slate-200 dark:border-slate-800 dark:bg-gradient-to-t dark:from-slate-800 dark:to-slate-800/30 odd:-rotate-1 even:rotate-1 hover:rotate-0 transition-transform duration-700 hover:duration-100 ease-in-out p-5"
-          href="#0"
+          className="rounded-lg border border-slate-200 dark:border-slate-800 dark:bg-gradient-to-t dark:from-slate-800 dark:to-slate-800/30 ease-in-out p-5"
+          href="https://github.com/slashrelativepath/relativepath.tech"
         >
           <div className="flex flex-col h-full">
             <div className="grow">
@@ -45,11 +57,21 @@ export default function FaeturedProjects() {
                   />
                 </svg>
               </div>
-              <div className="text-lg font-aspekta font-[650] mb-1">Engine Prototypes</div>
-              <p className="text-sm text-slate-500 dark:text-slate-400 mb-2">Solutions for running containers locally and remotely.</p>
+              <div className="text-lg font-aspekta font-[650] mb-1">
+                Relative Path
+              </div>
+              <p className="text-sm text-slate-500 dark:text-slate-400 mb-2">
+                Non-profit teaching DevOps and coding to underrepresented
+                groups.
+              </p>
             </div>
             <div className="text-sky-500 flex justify-end">
-              <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="14" height="12">
+              <svg
+                className="fill-current"
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="12"
+              >
                 <path d="M9.586 5 6.293 1.707 7.707.293 13.414 6l-5.707 5.707-1.414-1.414L9.586 7H0V5h9.586Z" />
               </svg>
             </div>
@@ -57,5 +79,5 @@ export default function FaeturedProjects() {
         </a>
       </div>
     </section>
-  )
+  );
 }
