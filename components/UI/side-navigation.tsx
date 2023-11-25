@@ -35,7 +35,7 @@ export default function SideNavigation() {
                   href="/"
                   className={`w-full h-6 flex items-center justify-center relative after:absolute after:w-0.5 after:right-0 after:top-0 after:bottom-0 ${
                     pathname !== "/about" &&
-                    pathname !== "/subscribe" &&
+                    pathname !== "/contact" &&
                     pathname !== "/projects" &&
                     pathname !== "/resume"
                       ? "text-sky-500 after:bg-sky-500"
@@ -129,14 +129,14 @@ export default function SideNavigation() {
               </li>
               <li className="py-2">
                 <Link
-                  href="/subscribe"
+                  href="/contact"
                   className={`w-full h-6 flex items-center justify-center relative after:absolute after:w-0.5 after:right-0 after:top-0 after:bottom-0 ${
-                    pathname === "/subscribe"
+                    pathname === "/contact"
                       ? "text-sky-500 after:bg-sky-500"
                       : "text-slate-400 hover:text-slate-500 dark:text-slate-500 dark:hover:text-slate-400"
                   }`}
                 >
-                  <span className="sr-only">Subscribe</span>
+                  <span className="sr-only">Contact</span>
                   <svg
                     className="fill-current"
                     xmlns="http://www.w3.org/2000/svg"
