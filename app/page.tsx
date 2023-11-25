@@ -5,8 +5,8 @@ import FeaturedProjects from "@/components/featured-projects";
 import WidgetPosts from "@/components/widget-posts";
 
 export const metadata = {
-  title: "Home - DevSpace",
-  description: "Page description",
+  title: "Home - Kenson Johnson",
+  description: "Website and blog of Kenson Johnson, a software engineer.",
 };
 
 export default async function Home() {
