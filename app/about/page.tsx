@@ -1,12 +1,11 @@
 import Image from "next/image";
-import WidgetNewsletter from "@/components/widget-newsletter";
-import WidgetSponsor from "@/components/widget-sponsor";
-import AboutImg from "@/public/images/about.png";
+import Link from "next/link";
+import AboutImg from "@/public/images/profile_square_hi_res.jpg";
 import Experience from "@/components/experience";
 
 export const metadata = {
-  title: "About - DevSpace",
-  description: "Page description",
+  title: "About - Kenson Johnson",
+  description: "About Kenson Johnson",
 };
 
 export default function About() {
@@ -17,18 +16,15 @@ export default function About() {
         <div className="max-w-[900px]">
           <section>
             {/* Page title */}
-            <h1 className="h1 font-aspekta mb-5">
-              Hi. I&apos;m Mark{" "}
-              <span className="inline-flex relative text-sky-500 before:absolute before:inset-0 before:bg-sky-200 dark:before:bg-sky-500 before:opacity-30 before:-z-10 before:-rotate-2 before:translate-y-1/4">
-                @mrk27
-              </span>{" "}
-              Ivings 🤟
+            <h1 className="h1 font-aspekta mb-5 text-center">
+              Hi. I&apos;m Kenson Johnson{" "}
+              <span className="text-sky-500 dark:text-sky-400">👋</span>
             </h1>
             <Image
-              className="w-full"
+              className="rounded-sm mx-auto"
               src={AboutImg}
-              width={692}
-              height={390}
+              width={400}
+              height={400}
               alt="About"
             />
             {/* Page content */}
@@ -38,15 +34,24 @@ export default function About() {
                   Short Bio
                 </h2>
                 <p>
-                  I&apos;m a software engineer with more than 10 years of
-                  experience in a variety of domains. For the past few years,
-                  I&apos;ve focused on highload server-side projects,
-                  distributed systems, and platform development - tinkering with
-                  infrastructure, all things containers and Cloud Native.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
                 </p>
                 <p>
-                  While there isn&apos;t a Wikipedia page about me (sorry
-                  folks!), a media bio is available below.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
                 </p>
               </div>
               <div className="space-y-4">
@@ -54,66 +59,53 @@ export default function About() {
                   Career
                 </h2>
                 <p>
-                  In my role as a Senior Software Engineer for Google Chrome, I
-                  am responsible for developing and maintaining the{" "}
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore{" "}
                   <a
                     className="font-medium text-sky-500 hover:underline"
                     href="#0"
                   >
-                    Chrome Web Browser
+                    Dolore Magna Aliqua
                   </a>
                   .
                 </p>
                 <p>
-                  My work involves developing and testing new features,
-                  optimizing performance and security, and ensuring the browser
-                  works for users around the world. I also work closely with
-                  other Google teams ensure Chrome is well-integrated with other{" "}
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non{" "}
                   <a
                     className="font-medium text-sky-500 hover:underline"
                     href="#0"
                   >
-                    Google
+                    proident,
                   </a>{" "}
-                  products and services.
+                  sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
                 <p>
-                  As CTO of AppForYou,{" "}
+                  Lorem ipsum dolor sit amet,{" "}
                   <strong className="font-medium text-slate-800 dark:text-slate-100">
-                    I am responsible for leading
+                    consectetur adipiscing elit sed do
                   </strong>{" "}
-                  the technical teamand developing the company&apos;s technology
-                  strategy. I work closely with the engineering team to ensure
-                  that the products and services we provide are secure.
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
                 </p>
               </div>
 
               <Experience />
 
               <div className="space-y-4">
-                <h2 className="h3 font-aspekta text-slate-800 dark:text-slate-100">
-                  Let&apos;s Connect
+                <h2 className="h3 font-aspekta text-sky-500 hover:underline">
+                  <Link href="/contact">Let&apos;s Connect!</Link>
                 </h2>
-                <p>
-                  I&apos;m excited to connect with others via{" "}
-                  <a
-                    className="font-medium text-sky-500 hover:underline"
-                    href="#0"
-                  >
-                    email
-                  </a>{" "}
-                  and{" "}
-                  <a
-                    className="font-medium text-sky-500 hover:underline"
-                    href="#0"
-                  >
-                    Twitter
-                  </a>{" "}
-                  to chat about projects and ideas. Currently, I&apos;m not
-                  taking on freelance projects, but I am open to hearing about
-                  potential opportunities, discussing them with you and then
-                  potentially collaborating if it&apos;s a good fit.
-                </p>
               </div>
             </div>
           </section>
