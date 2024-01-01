@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import Testimonial03 from "@/public/images/testimonial-03.jpg";
-import Testimonial04 from "@/public/images/testimonial-04.jpg";
+import MarkProfilePic from "@/public/images/mark_dalrymple_profile_pic.jpeg";
+import ChristopherProfilePic from "@/public/images/christopher_keim_profile_pic.jpeg";
 
 export default function Recommendations() {
   return (
@@ -11,60 +11,82 @@ export default function Recommendations() {
       </h2>
       <ul className="space-y-8">
         {/* Item */}
-        <li className="relative group">
+        <li className="group relative">
           <div className="flex items-start">
-            <div className="absolute left-0 h-14 w-14 flex items-center justify-center dark:border-slate-800 dark:bg-gradient-to-t dark:from-slate-800 dark:to-slate-800/30 bg-white dark:bg-slate-900 rounded-full">
+            <div className="absolute left-0 flex h-14 w-14 items-center justify-center rounded-full bg-white dark:border-slate-800 dark:bg-slate-900 dark:bg-gradient-to-t dark:from-slate-800 dark:to-slate-800/30">
               <Image
                 className="rounded-full"
-                src={Testimonial03}
+                src={MarkProfilePic}
                 width={56}
                 height={56}
                 alt="Testimonial 03"
               />
             </div>
-            <div className="pl-20 space-y-1">
+            <div className="space-y-1 pl-20">
               <div className="font-aspekta font-[650] text-slate-800 dark:text-slate-100">
-                Mary Christopher
+                Mark Dalrymple
               </div>
               <div className="text-sm font-medium text-slate-800 dark:text-slate-100">
-                Designer Lead at Inventa Inc.
+                Senior iOS Engineer at Zillow
               </div>
-              <div className="text-sm text-slate-500 dark:text-slate-400">
-                “ Working with James on projects is a breath of fresh air. He is
-                an extremely talented dev, with an outstanding work ethic, eye
-                for detail, and speed. James doesn&apos;t just execute and
-                deliver incredible codes but works with you to challenge the
-                product or flow at hand to create the best possible solution. ”
-              </div>
+              <p className="text-sm text-slate-500 dark:text-slate-400">
+                &ldquo; Kenson is a force of nature and force of will. I&apos;ve
+                been working with him for the last couple of months, checking in
+                weekly, and every week I&apos;m impressed with what he&apos;s
+                been able to accomplish - learning web tech stacks, exploring
+                different languages and platforms, applying LLM AI beyond the
+                typical &quot;hey let me ask ChatGPT about something
+                trivial&quot; that you see. <br />
+                <br />I asked Kenson to write a browser extension for me to do a
+                weirdly specific task, and he knocked it out of the park:
+                learned how to write browser extensions, building the UI and
+                workflow, delivering and demonstrating the tool, and iterating
+                fixing a couple of things caused by poor requirements on my
+                part. I&apos;ve since applied this tool hundreds of times.{" "}
+                <br />
+                <br /> Kenson is also a proactive mentor and community supporter
+                - he&apos;s been running an algorithm and data structures study
+                group, helping his peers exercise their interview coding problem
+                skills. They meet regularly and work through leetcode problems.
+                Kenson posts his solution, and helps his peers solve problems
+                with their code. He&apos;s a pillar of the Underdog Devs
+                community - at a recent cohort show and tell, Kenson got a
+                shout-out from just about everybody for the help he&apos;s given
+                to them over the past several months. <br />
+                <br /> Plus he&apos;s a nice guy and really easy to talk to. If
+                you want someone self-motivated, intelligent, supportive, and
+                fun to work with on your team, Kenson would be an amazing
+                choice. &rdquo;
+              </p>
             </div>
           </div>
         </li>
         {/* Item */}
-        <li className="relative group">
+        <li className="group relative">
           <div className="flex items-start">
-            <div className="absolute left-0 h-14 w-14 flex items-center justify-center dark:border-slate-800 dark:bg-gradient-to-t dark:from-slate-800 dark:to-slate-800/30 bg-white dark:bg-slate-900 rounded-full">
+            <div className="absolute left-0 flex h-14 w-14 items-center justify-center rounded-full bg-white dark:border-slate-800 dark:bg-slate-900 dark:bg-gradient-to-t dark:from-slate-800 dark:to-slate-800/30">
               <Image
                 className="rounded-full"
-                src={Testimonial04}
+                src={ChristopherProfilePic}
                 width={56}
                 height={56}
                 alt="Testimonial 04"
               />
             </div>
-            <div className="pl-20 space-y-1">
+            <div className="space-y-1 pl-20">
               <div className="font-aspekta font-[650] text-slate-800 dark:text-slate-100">
-                Harry Kastelli
+                Christopher Keim
               </div>
               <div className="text-sm font-medium text-slate-800 dark:text-slate-100">
-                CEO & Founder Mark Corp.
+                Machine Learning Engineer at Underdog Devs
               </div>
               <div className="text-sm text-slate-500 dark:text-slate-400">
-                “ James is an excellent developer. He is not just quick to
-                evaluate and translate ideas into high-fidelity codes, but
-                he&apos;s also well-versed in UX strategy. While working
-                together, James handled our external partnership with Design
-                Agencies, and delivered weekly progress reports with fresh
-                ideas. ”
+                &ldquo; Kenson is not only a brilliant engineer, he is a deeply
+                empathetic teacher and lucid communicator. Whether it&apos;s
+                delivering full stack software products or diving into
+                infrastructure and DevOps, Kenson takes an incredibly
+                detail-oriented approach to solving problems. He&apos;s an
+                absolute asset to have on a team. &rdquo;
               </div>
             </div>
           </div>
