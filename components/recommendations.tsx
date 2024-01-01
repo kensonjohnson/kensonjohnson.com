@@ -22,7 +22,10 @@ export default function Recommendations() {
                 alt="Testimonial 03"
               />
             </div>
-            <div className="space-y-1 pl-20">
+            <a
+              href="https://www.linkedin.com/in/kensonjohnson/details/recommendations/"
+              className="space-y-1 pl-20"
+            >
               <div className="font-aspekta font-[650] text-slate-800 dark:text-slate-100">
                 Mark Dalrymple
               </div>
@@ -58,7 +61,7 @@ export default function Recommendations() {
                 fun to work with on your team, Kenson would be an amazing
                 choice. &rdquo;
               </p>
-            </div>
+            </a>
           </div>
         </li>
         {/* Item */}
@@ -73,22 +76,25 @@ export default function Recommendations() {
                 alt="Testimonial 04"
               />
             </div>
-            <div className="space-y-1 pl-20">
+            <a
+              href="https://www.linkedin.com/in/kensonjohnson/details/recommendations/"
+              className="space-y-1 pl-20"
+            >
               <div className="font-aspekta font-[650] text-slate-800 dark:text-slate-100">
                 Christopher Keim
               </div>
               <div className="text-sm font-medium text-slate-800 dark:text-slate-100">
                 Machine Learning Engineer at Underdog Devs
               </div>
-              <div className="text-sm text-slate-500 dark:text-slate-400">
+              <p className="text-sm text-slate-500 dark:text-slate-400">
                 &ldquo; Kenson is not only a brilliant engineer, he is a deeply
                 empathetic teacher and lucid communicator. Whether it&apos;s
                 delivering full stack software products or diving into
                 infrastructure and DevOps, Kenson takes an incredibly
                 detail-oriented approach to solving problems. He&apos;s an
                 absolute asset to have on a team. &rdquo;
-              </div>
-            </div>
+              </p>
+            </a>
           </div>
         </li>
       </ul>
