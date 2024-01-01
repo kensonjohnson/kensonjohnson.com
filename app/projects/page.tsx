@@ -7,6 +7,7 @@ import DelegateIcon from "@/public/images/delegate_icon.svg";
 import CKLogoLight from "@/public/images/ck_logo_light.svg";
 import CKLogoDark from "@/public/images/ck_logo_dark.svg";
 import UnderdogLogo from "@/public/images/underdog_devs_logo.png";
+import RelativePathLogo from "@/public/images/relative_path_logo.png";
 // import GitHubIcon from "@/public/images/github.svg";
 
 export const metadata = {
@@ -67,6 +68,15 @@ export default function Projects() {
       title: "Underdog Devs Website",
       excerpt: "Next 13, Sass, TypeScript, and AWS.",
     },
+    {
+      id: "relative_path_website",
+      iconLight: RelativePathLogo,
+      iconDark: RelativePathLogo,
+      link: "https://github.com/kensonjohnson/relativepath.tech",
+      websiteLink: "https://relativepath.tech",
+      title: "Relative Path Website",
+      excerpt: "Vite, React, TypeScript, and Cloudflare Pages.",
+    },
   ];
 
   return (
@@ -75,13 +85,13 @@ export default function Projects() {
         <div className="w-full">
           <section>
             {/* Page title */}
-            <h1 className="h1 font-aspekta mb-12">
+            <h1 className="h1 mb-12 font-aspekta">
               Nice stuff I&apos;ve built
             </h1>
             <div className="space-y-10">
               {/* Github projects cards */}
               <section>
-                <h2 className="font-aspekta mb-6 text-xl font-[650]">
+                <h2 className="mb-6 font-aspekta text-xl font-[650]">
                   Projects
                 </h2>
                 <div className="grid gap-5 md:grid-cols-2">
@@ -92,7 +102,7 @@ export default function Projects() {
               </section>
               {/* Client Projects cards */}
               <section>
-                <h2 className="font-aspekta mb-6 text-xl font-[650]">
+                <h2 className="mb-6 font-aspekta text-xl font-[650]">
                   Client Projects
                 </h2>
                 <div className="grid gap-5 md:grid-cols-2">

@@ -1,19 +1,23 @@
+import Image from "next/image";
+
+import RelativePathLogo from "@/public/images/relative_path_logo.png";
+
 export default function FaeturedProjects() {
   return (
     <section>
-      <h2 className="font-aspekta text-xl font-[650] mb-5">
+      <h2 className="mb-5 font-aspekta text-xl font-[650]">
         Open-Source Projects
       </h2>
 
       {/* Cards */}
-      <div className="grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-5">
+      <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2">
         <a
-          className="rounded-lg border border-slate-200 dark:border-slate-800 dark:bg-gradient-to-t dark:from-slate-800 dark:to-slate-800/30 p-5"
+          className="rounded-lg border border-slate-200 p-5 dark:border-slate-800 dark:bg-gradient-to-t dark:from-slate-800 dark:to-slate-800/30"
           href="https://github.com/kensonjohnson/simple-typescript-template"
         >
-          <div className="flex flex-col h-full">
+          <div className="flex h-full flex-col">
             <div className="grow">
-              <div className="h-10 w-10 flex items-center justify-center border border-slate-200 dark:border-slate-700 rounded-full mb-2">
+              <div className="mb-2 flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 dark:border-slate-700">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18">
                   <path
                     fill="#34D399"
@@ -22,15 +26,15 @@ export default function FaeturedProjects() {
                   />
                 </svg>
               </div>
-              <div className="text-lg font-aspekta font-[650] mb-1">
+              <div className="mb-1 font-aspekta text-lg font-[650]">
                 Simple TypeScript Template
               </div>
-              <p className="text-sm text-slate-500 dark:text-slate-400 mb-2">
+              <p className="mb-2 text-sm text-slate-500 dark:text-slate-400">
                 A no bells and whistles template to setup a TypeScript project.
                 Perfect for beginners just learning TS.
               </p>
             </div>
-            <div className="text-sky-500 flex justify-end">
+            <div className="flex justify-end text-sky-500">
               <svg
                 className="fill-current"
                 xmlns="http://www.w3.org/2000/svg"
@@ -43,29 +47,28 @@ export default function FaeturedProjects() {
           </div>
         </a>
         <a
-          className="rounded-lg border border-slate-200 dark:border-slate-800 dark:bg-gradient-to-t dark:from-slate-800 dark:to-slate-800/30 ease-in-out p-5"
+          className="rounded-lg border border-slate-200 p-5 ease-in-out dark:border-slate-800 dark:bg-gradient-to-t dark:from-slate-800 dark:to-slate-800/30"
           href="https://github.com/slashrelativepath/relativepath.tech"
         >
-          <div className="flex flex-col h-full">
+          <div className="flex h-full flex-col">
             <div className="grow">
-              <div className="h-10 w-10 flex items-center justify-center border border-slate-200 dark:border-slate-700 rounded-full mb-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18">
-                  <path
-                    fill="#8B5CF6"
-                    fillRule="evenodd"
-                    d="M3.849 1.619a9.052 9.052 0 0 0-1.732 1.582c2.066-.192 4.69.12 7.735 1.644 3.253 1.626 5.873 1.681 7.696 1.33a8.95 8.95 0 0 0-.62-1.44c-2.087.22-4.763-.071-7.88-1.63-1.98-.99-3.726-1.398-5.2-1.486ZM15.709 3A8.977 8.977 0 0 0 9 0c-.783 0-1.542.1-2.266.288.98.267 2.022.659 3.118 1.207C12.135 2.636 14.106 3.004 15.708 3Zm2.228 4.933c-2.202.435-5.243.345-8.89-1.478C5.639 4.75 2.926 4.772 1.096 5.179a9.117 9.117 0 0 0-.276.066A8.933 8.933 0 0 0 .25 6.883c.146-.04.298-.077.454-.112 2.22-.493 5.357-.472 9.147 1.424 3.41 1.704 6.123 1.683 7.953 1.276l.185-.043a9.133 9.133 0 0 0-.053-1.495Zm-.24 3.395c-2.182.38-5.134.234-8.65-1.523C5.639 8.1 2.926 8.122 1.096 8.529c-.406.09-.771.2-1.094.316L0 9a9 9 0 0 0 17.696 2.328Z"
-                  />
-                </svg>
+              <div className="mb-2 flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 dark:border-slate-700">
+                <Image
+                  src={RelativePathLogo}
+                  width={56}
+                  height={56}
+                  alt="Relative Path Logo"
+                />
               </div>
-              <div className="text-lg font-aspekta font-[650] mb-1">
+              <div className="mb-1 font-aspekta text-lg font-[650]">
                 Relative Path
               </div>
-              <p className="text-sm text-slate-500 dark:text-slate-400 mb-2">
+              <p className="mb-2 text-sm text-slate-500 dark:text-slate-400">
                 Non-profit teaching DevOps and coding to underrepresented
                 groups.
               </p>
             </div>
-            <div className="text-sky-500 flex justify-end">
+            <div className="flex justify-end text-sky-500">
               <svg
                 className="fill-current"
                 xmlns="http://www.w3.org/2000/svg"

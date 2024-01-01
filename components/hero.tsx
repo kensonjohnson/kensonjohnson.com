@@ -5,25 +5,30 @@ export default function Hero() {
   return (
     <section>
       <div className="max-w-[800px]">
-        <div className="pt-8 pb-10">
+        <div className="pb-10 pt-8">
           <Image
-            className="rounded-full mb-5"
+            className="mb-5 rounded-full"
             src={HeroImage}
             width={56}
             height={56}
             priority
             alt="Me"
           />
-          <h1 className="h1 font-aspekta mb-5">
+          <h1 className="h1 mb-5 font-aspekta">
             I write about{" "}
-            <span className="inline-flex relative text-sky-500 before:absolute before:inset-0 before:bg-sky-200 dark:before:bg-sky-500 before:opacity-30 before:-z-10 before:-rotate-2 before:translate-y-1/4">
+            <span className="relative inline-flex text-sky-500 before:absolute before:inset-0 before:-z-10 before:translate-y-1/4 before:-rotate-2 before:bg-sky-200 before:opacity-30 dark:before:bg-sky-500">
               code
             </span>
             .
           </h1>
           <p className="text-lg text-slate-500 dark:text-slate-400">
             Developer, Writer and Co-Founder of{" "}
-            <a href="https://paperbullx.com" className="text-blue-500">
+            <a
+              href="https://paperbullx.com"
+              className="text-white hover:text-blue-500"
+              referrerPolicy="no-referrer"
+              target="_blank"
+            >
               Paper Bull Trading
             </a>
             . I write about coding, startups, and my journey as a full-time
