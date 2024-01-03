@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import AboutImg from "@/public/images/profile_square_hi_res.jpg";
-import Experience from "@/components/experience";
 
 export const metadata = {
   title: "About - Kenson Johnson",
@@ -99,8 +98,6 @@ export default function About() {
                 </p>
               </div>
 
-              <Experience />
-
               <div className="space-y-4">
                 <h2 className="h3 font-aspekta text-sky-500 hover:underline">
                   <Link href="/contact">Let&apos;s Connect!</Link>
@@ -110,14 +107,6 @@ export default function About() {
           </section>
         </div>
       </div>
-
-      {/* Right sidebar */}
-      {/* <aside className="md:w-[240px] lg:w-[300px] shrink-0">
-        <div className="space-y-6">
-          <WidgetNewsletter />
-          <WidgetSponsor />
-        </div>
-      </aside> */}
     </div>
   );
 }
