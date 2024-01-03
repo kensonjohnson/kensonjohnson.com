@@ -10,25 +10,24 @@ export const metadata = {
 
 export default function About() {
   return (
-    <div className="grow md:flex space-y-8 md:space-y-0 md:space-x-8 pt-12 md:pt-16 pb-16 md:pb-20">
+    <div className="grow space-y-8 pb-16 pt-12 md:flex md:space-x-8 md:space-y-0 md:pb-20 md:pt-16">
       {/* Middle area */}
       <div className="grow">
         <div className="max-w-[900px]">
           <section>
             {/* Page title */}
-            <h1 className="h1 font-aspekta mb-5 text-center">
-              Hi. I&apos;m Kenson Johnson{" "}
-              <span className="text-sky-500 dark:text-sky-400">👋</span>
+            <h1 className="h1 mb-5 text-center font-aspekta">
+              Hi. I&apos;m Kenson Johnson 👋
             </h1>
             <Image
-              className="rounded-sm mx-auto"
+              className="mx-auto rounded-sm"
               src={AboutImg}
               width={400}
               height={400}
               alt="About"
             />
             {/* Page content */}
-            <div className="text-slate-500 dark:text-slate-400 space-y-8">
+            <div className="space-y-8 text-slate-500 dark:text-slate-400">
               <div className="space-y-4">
                 <h2 className="h3 font-aspekta text-slate-800 dark:text-slate-100">
                   Short Bio
