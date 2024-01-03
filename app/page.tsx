@@ -1,7 +1,6 @@
 import { allPosts } from "contentlayer/generated";
 import Hero from "@/components/hero";
 import PostItem from "./post-item";
-import FeaturedProjects from "@/components/featured-projects";
 import WidgetPosts from "@/components/widget-posts";
 
 export const metadata = {
@@ -19,17 +18,17 @@ export default async function Home() {
     <>
       <Hero />
       {/* Content */}
-      <div className="grow md:flex space-y-8 md:space-y-0 md:space-x-8 pb-16 md:pb-20">
+      <div className="grow space-y-8 pb-16 md:flex md:space-x-8 md:space-y-0 md:pb-20">
         {/* Middle area */}
         <div className="grow">
           <div className="space-y-10">
             <section>
-              <h2 className="font-aspekta text-xl font-[650] mb-3">
+              <h2 className="mb-3 font-aspekta text-xl font-[650]">
                 Latest Articles
               </h2>
 
               {/* Filters */}
-              <ul className="flex flex-wrap text-sm border-b border-slate-100 dark:border-slate-800">
+              <ul className="flex flex-wrap border-b border-slate-100 text-sm dark:border-slate-800">
                 {/* TODO: Add functionality for switching based on category */}
                 {/* <li className="px-3 -mb-px">
                   <a
@@ -72,14 +71,11 @@ export default async function Home() {
                 ))}
               </div>
             </section>
-
-            {/* <Talks /> */}
-            <FeaturedProjects />
           </div>
         </div>
 
         {/* Right sidebar */}
-        <aside className="md:w-[240px] lg:w-[300px] shrink-0">
+        <aside className="shrink-0 md:w-[240px] lg:w-[300px]">
           <div className="space-y-6">
             {/* <WidgetSponsor /> */}
             <WidgetPosts />
