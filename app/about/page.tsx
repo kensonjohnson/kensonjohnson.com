@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FeaturedProjects } from "@/components/About/FeaturedProjects";
+
 import AboutImg from "@/public/images/profile_square_hi_res.jpg";
 
 export const metadata = {
@@ -97,6 +99,8 @@ export default function About() {
                   mollit anim id est laborum.
                 </p>
               </div>
+
+              <FeaturedProjects />
 
               <div className="space-y-4">
                 <h2 className="h3 font-aspekta text-sky-500 hover:underline">
